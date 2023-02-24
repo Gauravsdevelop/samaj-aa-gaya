@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    color: aqua;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    height: 50px;
+    display: flexs;
+    align-items: center;
+    padding: 0 12px;
+}
+
+nav ul{
+ 
+    text-align: center;
+    list-style-type:georgian;
+ }
+
+.gameContainer{
+
+    background-color:rgb(64, 14, 231);
+    display: flex;
+    justify-content:center ;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw );
+    grid-template-columns: repeat(3, 10vw );
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 9vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box:hover {
+    background-color: rgb(180, 129, 228);
+    cursor: pointer;
+
+}
+
+
+.gameinfo{ 
+
+padding: 0 34px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgbox img{
+    display: none;
+    
+}
+
+
+/* border right left top bottom css */
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
